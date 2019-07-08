@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    var tempArray :[String] = ["sudhakar","hello"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,6 +22,11 @@ class ViewController: UIViewController {
 
         
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func hello()
+    {
+        
     }
 
     override func didReceiveMemoryWarning() {
